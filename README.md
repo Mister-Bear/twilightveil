@@ -1,38 +1,29 @@
-# Welcome to Evennia!
+# 🧛‍♂️ Twilight Veil: NYC — A Custom World of Darkness MUSH Built in Evennia
 
-This is your game directory, set up to let you start with
-your new game right away. An overview of this directory is found here:
-https://github.com/evennia/evennia/wiki/Directory-Overview#the-game-directory
+**Welcome to the development portal for Twilight Veil: NYC**, a Python-powered MUSH set in the World of Darkness universe. This project is not just a server—it's a living, breathing narrative engine combining immersive roleplay mechanics, rich lore, and modular game systems.
 
-You can delete this readme file when you've read it and you can
-re-arrange things in this game-directory to suit your own sense of
-organisation (the only exception is the directory structure of the
-`server/` directory, which Evennia expects). If you change the structure
-you must however also edit/add to your settings file to tell Evennia
-where to look for things.
+This repository reflects my personal journey as a curriculum strategist, educator, and self-taught Python developer. Every line of code in this MUSH is a love letter to storytelling, player agency, and scalable system design.
 
-Your game's main configuration file is found in
-`server/conf/settings.py` (but you don't need to change it to get
-started). If you just created this directory (which means you'll already
-have a `virtualenv` running if you followed the default instructions),
-`cd` to this directory then initialize a new database using
+---
 
-    evennia migrate
+## 🌌 What This Project Showcases
 
-To start the server, stand in this directory and run
+- 🔧 **Custom Python Modules** for character sheets, abilities, and supernatural traits (Vampire, Mage, Werewolf)
+- 📊 **XP Tracking & Voting Systems** using Evennia’s database models
+- 🗃️ **Modular Command Sets** for character generation and roleplay tools
+- 🧠 **System Thinking in Code** — from game balance to UI readability
+- 🔥 **Narrative Worldbuilding** powered by structured logic and emotional resonance
 
-    evennia start
+---
 
-This will start the server, logging output to the console. Make
-sure to create a superuser when asked. By default you can now connect
-to your new game using a MUD client on `localhost`, port `4000`.  You can
-also log into the web client by pointing a browser to
-`http://localhost:4001`.
+## 🚀 Quickstart Instructions
 
-# Getting started
+To run this MUSH on your local machine:
 
-From here on you might want to look at one of the beginner tutorials:
-http://github.com/evennia/evennia/wiki/Tutorials.
+```bash
+evennia migrate
+evennia start
+
 
 Evennia's documentation is here:
 https://github.com/evennia/evennia/wiki.
